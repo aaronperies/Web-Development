@@ -1,0 +1,299 @@
+ .memPic{
+	display:block;
+	width: 100%;
+	min-height: 100%;
+	opacity:1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	}
+.ho{
+	transition: .5s ease;
+	opacity:0;
+	text-align: center;
+	}
+
+.mem1:hover .memPic {
+	opacity: 0.9;
+	}
+
+.mem1:hover .ho {
+	opacity: 1;
+	}
+
+.textPic {
+	font-family:'Concert One', cursive;
+	background-color: #053c5e;;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+	}
+.news{
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap: 50px;
+	margin:2% 5% 5% 5%;
+	}
+.news1{
+	background-color:#053c5e;
+	box-shadow: 2px 6px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align:center;
+	color:white;
+	border-bottom:1px solid;
+	border-bottom-color:red;
+	}
+
+.teams{
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+	grid-gap: 30px;
+	margin:2% 5% 5% 5%;
+	}
+		
+.team1{
+	box-shadow: 2px 6px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align:center;
+	background-color:#053c5e;
+	transition: transform .30s;
+	}
+	
+.team1:hover{
+	transform:scale(1.1);
+	}
+
+.members{
+	display:grid;
+	grid-template-columns:23% 23% 23% 23%;
+	grid-gap:27px;
+	margin:2% 5% 5% 5%;
+	grid-template-rows:400px ;
+	}
+	
+.mem1{
+	box-shadow: 2px 6px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	
+.header1{
+	display:grid;
+	grid-template-columns:25% 75%;
+	background-color:#053c5e;
+	}
+	
+.header2{
+	display:grid;
+	grid-template-columns:16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+	background-color:red;
+	border-bottom-color:crimson;
+	border-bottom-style:solid;
+	height:20%;
+	overflow: hidden;
+	font-size: 17px;
+	}
+
+	#header3{
+		width: 100%;
+		background-color:#A8DADC;
+		}
+	#header3::after {
+		content: '';
+		display: table;
+		clear: both;
+		}
+	#nav2 {
+		padding-top: 15px;
+		padding-left: 25%;
+		padding-bottom: 15px;
+		}
+		
+	#nav2 ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		}
+		
+	#nav2 li {
+		font-weight: bold;
+		font-family: Rockwell;
+		display: inline-block;
+		margin-left:3%;
+		transition: transform .3s;
+		}
+		
+	.navText:hover{transform:scale(1.5);}	
+	
+	
+	#nav2 a {
+		text-decoration: none;
+		color: black;
+	}
+	
+#nav{
+	color:white;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+body{
+	margin:0px 0px 0px 0px;
+
+	}
+.divHeadNav a{
+	text-align:center;
+	color:black;
+	border-left:red 1px;
+	padding-top:100px;
+	padding-bottom:100px;
+	text-decoration: none;
+	font-family:rockwell;
+	}
+
+.logo{
+	width: 35%;
+	height: auto;
+	margin-left: 5%;
+	}
+	
+#divHead1Qoute{
+	text-align: right;
+	color: #EAEBED;
+	margin-right: 3%;
+	padding-top: 2%;
+	font-size:17px; 
+	font-family: Rockwell;
+}
+
+#clubSelectText{
+	color:#053c5e;
+	font-family:'Concert One', cursive;
+	text-align:center;
+}
+#clubSelectTextCC{
+	color:red;
+	font-family:'Concert One', cursive;
+	text-align:center;
+}
+
+#clubSelectContent{
+
+	text-align:center;
+}
+.clubSelect{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:1%;
+	margin-bottom:5%;
+	overflow:hidden;
+	
+}
+.clubSelectOpt{
+	float:left;
+	text-align:center;
+	box-shadow: 2px 6px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	
+}
+.clubSelectPic{
+	max-height:300px;
+	min-height:100px;
+	max-width:250px
+}
+
+#clubSelectPicCon{
+	margin-left:10%;
+	margin-right:10%;
+}
+.clubSelectPic:hover {
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+}
+#muIMG{
+    max-height:300px;
+	min-height:100px;
+	max-width:450px;	
+	float:left;
+}
+
+.conRul{
+	font-family: 'Concert One', cursive;
+	color:#053c5e;
+	padding-bottom:1%;
+	
+}
+ .conPic{
+ width: 100%;
+ min-height: 100%;
+}
+ .conPdiv{
+ text-align:center;
+
+ }
+ #content{
+ text-align:center;
+ margin-left:20%;
+ margin-right:20%;
+ margin-top:2%;
+ margin-bottom:5%;
+   box-shadow: 2px 6px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ background-color:white;
+ padding-bottom:1%;
+ }
+#mchn{
+	  border-style:soiid;
+	  border-color:white;
+	  border-radius:7px;
+	  background-color:crimson;
+	  color:white;
+	  padding: 5px 5px 5px 5px;
+	  }
+	  
+#mchn:hover{
+	background:white;
+	color:crimson
+	} 
+.Questions{
+	background-color:#eff0f0;
+    margin: 10px 25px 25px 25px;
+	padding:34px 34px 34px 34px;
+	color: #2F2E2E;
+	-moz-box-shadow:0 0 10px black;
+	-webkit-box-shadow: 0 0 30px black;
+	box-shadow: 0 0 30px black;
+	font-family: 'Amiri', serif;
+	}
+
+#footer{
+	margin-top:8%;
+	background-color: #053c5e;
+	padding-bottom:2%;
+	text-align:center;
+	color: white;
+	font-family:Rockwell;
+	}
+	
+#footer a{
+	text-decoration: none;
+	color: #EAEBED;
+}
+	
+#wrapper{
+	min-height:1000%;
+	position:relative;}
+	}
+	
+

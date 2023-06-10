@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class = "animated bounceInRight">
+<head>
+	<title>Feedback</title>
+	<script src = "jsMenForm.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+	<link rel = "stylesheet" type = "text/css" href = "Style.css" />
+	<link rel="stylesheet" type="text/css" href="Feedback.css">
+	<link rel="stylesheet" type="text/css" href="mystyle2.css">
+	<link rel = "shortcut icon" type = "image/png" href = "../Images/Football Hub/favicon.png">
+	<link rel = "stylesheet" type = "text/css" href = "Animations.css" />
+</head>
+
+<body height="100%" id = "body2">
+<div id="wrapper">
+
+<!--header & nav bar-->
+	<div class= "header1">
+			<div id = "divHead1Logo">
+				<img src = "../Images/cwQpracIMG24.png" alt = "logo" class = "logo">
+			</div>
+				<div id = "divHead1Qoute" >
+				<span>"The level of football in England is the top.<br>English Football is the leader in the world"</span><br>
+				<p style = "padding-right: 13%;">-Pele-</p>
+		</div>
+		</div>
+		<header  id = "header3">
+		<div id = "div5">
+			<nav id = "nav2">
+				<ul>
+					<li class="navText" ><a href = "Home.html">Home	|</a></li>
+					<li class="navText" ><a href = "../../Student2/Quiz.html">Quiz	|</a></li>
+					<li class="navText" ><a href = "../../Student1/final form soccer hub.html">Shop	|</a></li>
+					<li class="navText"><a href = "../../Student4/Gallery.html">Gallery	  |</a></li>
+					<li class="navText" ><a href = "Feedback.html">Feedback	   |</a></li>
+					<li class="navText"><a href = "../../Student4/Sitemap.html">Sitemap 	|</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<p>Home >><span style = "color: #9197AE;"> Feedback Form</span></p>
+	
+<div class="form-wrap">
+		<h1 align = "center">Feedback</h1>
+		<a href = #h11>Click to show thanks</a>
+		
+		<p>We would gladly accept your comments. Give us some feedback so we can know if
+		any changes need to be made. Please ensure to fill in all fields provided.</p>
+		
+		<form name = "FeedbackForm" onsubmit="return required()">
+			<label for = "name">Name: </label>
+			<input type = "text" placeholder = "Enter your name" size = "25" name = "name" id = "field1">
+			<br>
+			<br>
+			<label for = "email">Email: </label>
+			<input type = "email" placeholder = "Enter your email" size = "25" name = "address" id = "field2">
+			<br>
+			<br>
+			<textarea rows = "7" cols = "75" name = "comment" form = "feedbackform" placeholder = "Enter your feedback here..." name = "comment" id = "field3"></textarea>
+			<br>
+			<br>
+			<label for = "rating">Please select a choice of rating - </label>
+			<select id = "field4" name = "options">
+				<option value = "initial">Choose an Option</option>
+				<option value = "The information available was insufficient">The information available was insufficient</option>
+				<option value = "The information availble was duely sufficient">The information availble was duely sufficient</option>
+				<option value = "The information available was very informative">The information available was very informative</option>
+				<option value = "The site displayed new things that I learned">The site displayed new things that I learned</option>
+			</select>
+			<br>
+			<br>
+			<input type = "submit" value = "Submit Feedback"> <input type = "reset" value = "Reset Form">
+		</form>
+		
+		<h1 align = "center" id = "h11">Thank You for visiting!</h1>
+</div>
+
+</div>
+
+</body>
+
+<script>	
+//function to validate form
+function required(){
+	var name = document.getElementById("field1").value;
+	var address = document.getElementById("field2").value;
+	var option = document.getElementById("field4").value;
+	var comm = document.getElementById("field3").value;
+
+	if (name==null || name==""){
+		alert ("Name cannot be blank");
+		return false;
+	}else if (address==null || address==""){
+		alert ("Email cannot be empty");
+		return false;
+	}else {
+		alert ("Thank you for the feedback! Your name is " + name + " ,your email is " + address + " and you gave us the rating, " + option 
+		+ " and your comments were '" + comm + "'");
+		return false;
+	}	
+}
+	
+</script>
+</html>

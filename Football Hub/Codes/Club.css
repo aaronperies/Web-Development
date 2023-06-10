@@ -1,0 +1,266 @@
+<style>
+	.pele{
+		float: right;
+		}
+	.Container{
+		display:grid;
+		grid-template-areas: "about news"
+							 "ManUplayers playerDis"
+							 "league Trophy";
+		grid-template-rows: 550px ;
+		grid-template-columns: 70% 30%;
+		}
+	.box1{
+		grid-area: about;
+		margin-top: 30px;
+		border-right: 1px solid red;
+		}
+	.box2{
+		grid-area:news;
+		margin-top:30px;
+		}
+	.name{
+		font-family:'News Cycle', sans-serif;
+		font-size:30px;
+		color:white;
+		}	
+	#MuLO{
+		margin-left:30%;
+		width:30%;
+		margin-top:10px;
+		}	  
+	.tab1{
+		padding:5%;
+		border-collapse: separate;
+		border-spacing: 19px;
+		width:100%; 
+		}
+	#news{
+		font-size: 30px; 
+		color: #F1091F;
+		margin-left: 5%;
+		}
+	.text1News {
+		padding: 2px 16px;
+		}
+	.text2News {
+		padding: 2px 16px;
+		}
+	.Arsenalnews img{
+		width: 100%;
+		height: 200px;
+	}
+	.data1{
+		transition: transform .30s;
+		margin: 20px 70px;
+		float: left;
+		width: 40%;
+		display: inline-block;
+		background: #053C5E;
+		color: white;
+		}
+	.data1:hover {
+		transform:scale(1.1);
+		}
+	.data2{
+		transition: transform .30s;
+		float: left;
+		margin: 20px 10px;
+		display: inline-block;
+		width: 40%;
+		background: #053C5E;
+		color: white;
+		}
+	.data2:hover {
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		transform: scale(1.1);
+		}
+	#Players{
+		font-size: 30px;
+		color: #F1091F;
+		margin-left: 5%;
+		margin-top: 50px;
+		}
+	.box5{
+		grid-area: ManUplayers;
+		border-right: 1px solid red;
+		height: 800px; 
+		}	  
+	.playercard1{ 
+		display:grid;
+		grid-template-areas: "mainP";
+		grid-template-rows:300px;
+		grid-template-columns:100%:
+		}	
+	.box7{
+		grid-area: mainP;
+		} 
+	#Best{
+		font-size:25px;
+		color:#F1091F;
+		margin-left:30%;
+		margin-top:90px;
+		}
+	#transform:hover{
+		transform:scale(0.8);
+		}
+	.Leno{
+		margin: 10px 20px;
+		float: left;
+		width: 20%;
+		display: inline-block;
+		transition: transform .30s;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		}
+	.Leno img {
+		width: 100%;
+		height: 170px;
+	}
+	.Auba{
+		margin: 10px 20px;
+		float: left;
+		width: 20%;
+		display: inline-block;
+		transition: transform .30s;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		}
+	.Auba img {
+		width: 100%;
+		height: 150px;
+	}
+	.Bell{
+		margin: 10px 20px;
+		float: left;
+		width: 20%;
+		display: inline-block;
+		transition: transform .30s;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		}
+	.Bell img {
+		width: 100%;
+		height: 170px;
+	}
+	.Kos{
+		margin: 10px 20px;
+		float: left;
+		width: 20%;
+		display: inline-block;
+		transition: transform .30s;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		}
+	.Kos img {
+		width: 100%;
+		height: 170px;
+	}
+	.Laca{
+		margin: 10px 20px;
+		float: left;
+		width: 20%;
+		transition: transform .30s;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		}
+	.Laca img {
+		width: 100%;
+		height: 170px;
+	}
+	.Sead{
+		margin: 10px 20px;
+		float: left;
+		width: 20%;
+		transition: transform .30s;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		}
+	.Sead img {
+		width: 100%;
+		height: 170px;
+	}
+	.Micky{
+		margin: 10px 20px;
+		float: left;
+		width: 20%;
+		transition: transform .30s;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		}
+	.Micky img {
+		width: 100%;
+		height: 170px;
+	}
+	.Papa{
+		margin: 10px 20px;
+		float: left;
+		width: 20%;
+		transition: transform .30s;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		}
+	.Papa img {
+		width: 100%;
+		height: 150px;
+	}
+	.box6{
+		grid-area: playerDis;
+		height: 800px;
+		} 
+	.tab2{
+		text-align: center;
+		padding: 3%;
+		border-collapse: separate;
+		border-spacing: 10px 40px;
+		width:100%; 
+		}
+	.box10{
+		grid-area:league;
+		border-right:1px solid red;
+		height:470px; 
+		}
+	.box11{
+		grid-area: Trophy;
+		height: 470px;
+		}
+	#Competions{
+		font-size: 30px;
+		color: #F1091F;
+		margin-left: 5%;
+		margin-top: 90px;
+		}
+	.Premier{
+		float: left;
+		margin: 10px 20px;
+		width: 30%;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		transition: transform .30s;
+		}
+	.Premier img{
+		width: 100%;
+		height: 170px;
+	}
+	.Champion{
+		float: left;
+		margin: 10px 20px;
+		width: 30%;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		margin-left: 1%;
+		transition: transform .30s;
+		}
+	.Champion img {
+		width: 100%;
+		height: 170px;
+	}
+	.FA {
+		float: left;
+		margin: 10px 20px;
+		width: 30%;
+		box-shadow: 1px 2px 2px 0px #9197AE;
+		margin-left: 1%;
+		transition: transform .30s;
+		}
+	.FA img {
+		width: 100%;
+		height: 170px;
+	}
+	#Won{
+		font-size: 25px;
+		color: #F1091F;
+		margin-left: 40%;
+		margin-top: 90px;
+		}
+</style>

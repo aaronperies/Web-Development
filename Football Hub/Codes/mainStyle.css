@@ -1,0 +1,98 @@
+#header1 {
+		background: #053C5E;
+		}
+#div1 {
+		width:84%;
+		margin: 0px 120px;
+		}		
+		
+#header3{
+		width: 100%;
+		background-color:#A8DADC;
+		}
+		
+	#header3::after {
+		content: '';
+		display: table;
+		clear: both;
+		}
+	
+	#nav1 {
+		padding-top: 35px;
+		padding-bottom: 15px;
+		float: right;
+		margin-right:0%;
+		}
+	#nav1 ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		}
+	#nav1 li {
+		color: #EAEBED;
+		font-weight: bold;
+       font-family: Rockwell,"Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+		display: inline-block;
+		margin-left:0%;
+		
+		
+		}		
+	#header2 {
+		width: 100%;
+		background-color:#A8DADC;
+		
+		}
+	#header2::after {
+		content: '';
+		display: table;
+		clear: both;
+		}
+	#nav2 {
+		padding-top: 15px;
+		padding-left: 25%;
+		padding-bottom: 15px;
+		}
+		
+	
+	#nav2 ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		}
+	#nav2 li {
+		font-weight: bold;
+		font-family: Rockwell,"Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+		display: inline-block;
+		margin-left:3%;
+		transition: transform .3s;
+		}
+		
+	li:hover{transform:scale(1.5);}	
+	
+	
+	#nav2 a {
+		text-decoration: none;
+		color: black;
+	}
+	
+	#end{font-size:16px; text-align:center; color:#fff;}
+
+#footImage{margin-left:40%;}
+#cocacola{margin-left:2%;}
+#qatar{margin-left:2%;}
+
+#footer{
+		margin-top:8%;
+		background-color: #053c5e;
+		padding-bottom:2%;
+		text-align:center;
+		color: white;
+		font-family:Rockwell;
+		}
+	
+	#footer a{
+		text-decoration: none;
+		color: #EAEBED;
+	}
+	
+

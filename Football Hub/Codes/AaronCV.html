@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<title>CV</title>
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+	<link rel = "stylesheet" type = "text/css" href = "Animations.css" />
+<style>
+	.ContainerCV{
+		display:grid;
+	}
+
+	#name{
+		font-size: 46px;
+		margin-left: 33%;
+		color: #08415;
+	}
+
+	hr{
+		width: 12%;
+		margin-left: 38%;
+		border-top: 1px solid #b5ffe1;
+		margin-top: 0px;
+	}
+
+	#stuTYPE{
+		margin-left: 39%;
+		font-size: 25px;
+	}
+
+	#picME{
+		width: 200px;
+		height: 200px;
+		border-radius: 100%;
+		float: right;
+		margin-right: 200px;
+		margin-top: 50px;
+	}
+
+	.stuInfo{
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 20px;
+		display: grid;
+		grid-template-areas: "profile contact "
+							 " sport  ";
+		grid-template-rows: 600px 1fr 600px;
+		grid-template-columns: 50% 50%;
+	}
+
+	#box1{
+		grid-area: profile; 
+		margin-top: 50px; 
+		text-align: center;
+	}
+
+	#profile{
+		margin-left: 35%; 
+		font-size: 28px;
+		color: #F1091F
+	}
+
+	#div1B1{
+		border-right: 2px solid #465362; 
+		margin-top: 15px;
+		background-color: black;
+	}
+
+	#box2{
+		grid-area: contact;
+	}
+
+	#education{
+		margin-left: 35%;
+		font-size: 28px;
+		color: #F1091F
+	}
+
+    #div2B2{
+		margin-top: 15px;
+		background-color: black;
+	}
+  
+	#oLevel{
+		margin-left: 3%; 
+		font-size: 20px; 
+		margin-top: 10px;
+	}
+  
+	#aLevel{
+		margin-left: 3%; 
+		font-size: 20px; 
+		margin-top: 10px;
+	}
+
+	ul{
+		margin-left: 4%;
+	}
+  
+	#box3{
+		grid-area: sport;
+	}
+
+	#div3B3{
+		margin-top: 25px;
+		background-color: black;
+	}
+
+	#Extra{
+		margin-left: 25%;
+		font-size: 28px;
+		color: #F1091F
+	}
+	#Contact{
+		text-align: center;
+		margin-top: 50px;
+		margin-left: 10%;
+		color: #F1091F;
+		font-size: 28px;
+	}
+	
+</style>
+</head>
+
+	  <body style = "font-family: Rockwell; background-color: black; color: #ffa500">
+
+	  <div class = "ContainerCV">
+		<div class = "head">
+
+			<img src = "../Images/CV.jpg"  id = "picME">
+			<p id = "name"><b>Aaron Peries</b></p>
+			
+			<p id="stuTYPE"><u>Student 2</u></p>
+			</div>
+
+			<div class="stuInfo">
+				<div class="box1" id="div1B1">
+					<p id="profile">Profile</p>
+					<p>My full name is Aaron Chase Nigel Peries. I was born on the 15th of September 1999. I attended St. Peter's College
+					during my time as a student. I was appointed as a Junior Prefect in the year 2017 and was awarded College Colors when 
+					I was promoted to a Senior Prefect in the year 2018. My hobbies are reading
+					thrillers, watching horror movies and playing football.</p>
+					<br>
+					<p>After I concluded my A/L's I joined IIT in the year 2019 and began a Bachelor's Degree in Software Engineering and
+					am not competent in writing programs in Python and Java. I have also acquired skills in web designing and database
+					management.</p>
+					</div>
+
+				<div class="box2" id="div2B2">
+					<p id="education">Education Qualifications</p>
+
+					<p id="oLevel">Ordinary Level</p>
+					<table>
+					<tr>
+					<td>
+
+					<ul>
+						<li>Mathematics  </li>
+						<li>Science  </li>
+						<li>Sinhala  </li>
+						<li>English  </li>
+						<li>Commerce </li>
+						<li>Religion  </li>
+						<li>History  </li>
+						<li>I.C.T  </li>
+						<li>English Literature  </li>
+					</ul>
+
+					</td>
+					<td>
+					<ul type="none">
+						<li>A</li>
+						<li>B</li>
+						<li>C</li>
+						<li>A</li>
+						<li>A</li>
+						<li>A</li>
+						<li>C</li>
+						<li>A</li>
+						<li>A</li>
+					</ul>
+					</td>
+					</tr>
+					</table>
+
+					<p id="aLevel">Advanced Level</p>
+					<table>
+					<tr>
+					<td>
+					<ul>
+						<li>Accounting</li>
+						<li>Economics</li>
+						<li>I.T</li>
+						<li>English</li>
+						<li>GIT</li>
+					</ul>
+					</td>
+					<td>
+					<ul type="none">
+						<li>B</li>
+						<li>B</li>
+						<li>B</li>
+						<li>A</li>
+						<li>A</li>
+					</ul>
+					</td>
+					</tr>
+					</table>
+				</div>
+
+			<div class="box3" id="div3B3">
+				<p id="Extra">Extra Curricular Activities</p>
+				<p>I was a Senior Prefect of my School (mentioned above) and was appointed as the House Captain of Peter
+				House. During my time as House Captain I won the Swimming Meet Shield in the year 2017 and came runners up
+				in the Interhouse Rugby Carnival by 1 point. During my school days I also played Cricket for school and the
+				Cricket Academy called M.C.A (Mercantile Cricket Academy).</p>
+			</div>
+			
+			<div class = "box4" id = "div4B4">
+				<p id = "Contact">Contact Info:</p>
+				<ul type = "none">
+					<li>Phone Number: 0773457264</li>
+					<br>
+					<li>Email Address: aaron.2018414@iit.ac.lk</li>
+					<br>
+					<li>Twitter: @AaronPeries</li>
+			</div>
+		</div>
+		
+
+	</body>
+</html>

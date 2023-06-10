@@ -1,0 +1,315 @@
+<style>
+
+	#heading1 {
+		font-family: Rockwell;
+		float: left;
+		padding-bottom: 30px;
+	}
+		
+	#body1 {
+		color: #053C5E;
+		margin: 0;
+		font-size: 18px; 
+		font-family:'Concert One', cursive;
+		height: 100%;
+	}
+		
+	#body2 {
+		color: #053C5E;
+		margin: 0;
+		font-size: 18; 
+		font-family:'Concert One', cursive;
+	}
+	
+	#div1 {
+		width: 80%;
+		margin: 0px 120px;
+	}
+	
+	#div3 {
+		font-family:'Concert One', cursive;
+		color: white;
+		width: 100%;
+		height: 50%;
+		background: white;
+		background: #DC143C;
+		padding-top: 1px;
+	}
+	
+	#div4 {
+		margin: 0;
+		font-size: 18; 
+		font-family:'Concert One', cursive;
+		background: rgba(255,255,255,0.2);
+	}
+	
+	#div5 {
+		width:100%;
+	}
+	
+	#div6{
+		margin: 0;
+		font-size: 18; 
+		font-family:'Concert One', cursive;
+	}
+	
+	.pl{
+		display: block; 
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.logo{
+		width: 175px;
+		height: 175px;
+		padding-left: 0px;
+	}	
+	
+	#header1 {	
+		background: #053C5E;
+	}
+		
+	#nav1 {
+		padding-top: 55px;
+		padding-bottom: 15px;
+		float: right;
+	}
+	
+	#nav1 ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	#nav1 li {
+		color: #EAEBED;
+		font-weight: bold;
+		font-family: Rockwell;
+		display: inline-block;
+		margin-left: 50px;
+	}
+	
+	#nav1 li:hover{
+		transform:scale(1.5);
+	}
+	
+	#header2 {
+		background: #A8DADC;
+		width: 100%;
+	}
+	
+	#header2::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	
+	#nav2 {
+		padding-top: 15px;
+		padding-left: 25%;
+		padding-bottom: 15px;
+	}
+	
+	#nav2 ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	#nav2 li {
+		font-weight: bold;
+		font-family: Rockwell;
+		display: inline-block;
+		margin-left: 50px;
+		transition: transform .3s;
+	}
+	
+	#nav2 li:hover{
+		transform:scale(1.5);
+	}
+	
+	#nav2 a {
+		color: #053C5E;
+		text-decoration: none;
+		transition: color 150ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
+	}
+	
+	.form-wrap{
+		border:2px solid white;
+		color:white;
+		font-size:20px;
+		font-family:'Concert One', cursive;
+		width:600px;
+		background:rgba(119, 136, 153, 0.8);
+		padding: 40px 20px;
+		box-sizing:border-box;
+		position: fixed;
+		left: 30%;
+		top: 125%;
+		right: 25%;
+		border-radius: 5px;
+	}
+		
+	input{
+		font-style: bold;
+		border-radius:5px;
+	}
+		
+	textarea{
+		border-radius:5px;
+	}
+		
+	#select1{
+		border-radius:5px;
+	}
+		
+	div.newsgallery{
+		margin: 0px 150px 60px;
+		float: left;
+		width: 29%;
+		background: #053C5E;
+		transition: transform .30s;
+	}
+	
+	div.newsgallery:hover{
+		transform: scale(1.1);
+	}
+	
+	div.newsgallery img{
+		width: 100%;
+		height: 200px;
+	}
+	
+	div.desc{
+		color: #EAEBED;
+		font-family:'Concert One', cursive;
+		padding: 20px;
+		text-align: center;	
+	}
+	
+	.latestnews{
+		margin: 10px 55px 80px;
+		float: left;
+		width: 26%;
+		background: #053C5E;
+	}
+	
+	.latestnews img{
+		width: 100%;
+		height: 200px;
+	}
+	
+	.newslabel{
+		color: #EAEBED;
+		font-family:'Concert One', cursive;
+		padding: 20px;
+		text-align: center;	
+	}
+	
+	h1 {
+		font-family:'Concert One', cursive;
+		padding-left: 25px;
+	}
+	
+	.fixtures{
+		padding: 9px;
+		width: 280px;
+		display: inline-block;
+	}
+	
+	.matches{
+		padding-left: 80px;
+	}
+	
+	#A-H1 {
+		text-align: center;
+		font-size: 40px;
+	}
+	
+	div.shop{
+		margin: 20px 180px;
+		float: left;
+		width: 25%;
+		display: inline-block;
+		background: #053C5E;
+		transition: transform .30s;
+	}
+	
+	div.shop:hover {
+		transform: scale(1.1);
+	}
+	
+	div.shop img {
+		width: 100%;
+		height: 200px;
+	}
+	
+	div.shop-label {
+		color: #EAEBED;
+		font-family:'Concert One', cursive;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.mySlides {
+		display: none;
+	}
+	
+	mySlides fade img {
+		vertical-align: middle;
+	}
+	
+	.div7 {
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+	}
+	
+	.SlideText {
+		color: #f2f2f2;
+		font-size: 25px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.slideNo {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+	
+	.dot {
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+	
+	.active {
+		background-color: #717171;
+	}
+	
+	.fade {
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+	
+	@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+	}
+	
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+		.text {font-size: 11px}
+	}
+	
+</style>
