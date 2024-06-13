@@ -1,0 +1,495 @@
+<!--cargo ton-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cargo Ton - Xiteb</title>
+    <link rel="icon" href="./images/logo.png"/>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css" integrity="sha512-kMPqFnKueEwgQFzXLEEl671aHhQqrZLS5IP3HzqdfozaST/EgU+/wkM07JCmXFAt9GO810I//8DBonsJUzGQsQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<!--body will be broken up into sections-->
+<body>
+    <!--nav section-->
+    <div class="navbar">
+        <div class="navbar-container">
+            <a href="#" id="navbar-logo"><img class="logo" src = "./images/logo.png"/></a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            HOME
+                            <i class="fa fa-caret-down" id="dropdown-icon"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#welcome">Welcome</a>
+                            <a href="#testimonials">Testimonials</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            PAGES
+                            <i class="fa fa-caret-down" id="dropdown-icon"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#stats">Stats</a>
+                            <a href="#clients">Our Clients</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="./tracking.html" class="navbar-links">TRACKING</a>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            SERVICES
+                            <i class="fa fa-caret-down" id="dropdown-icon"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#services">Our Services</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="navbar-item">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            BLOG
+                            <i class="fa fa-caret-down" id="dropdown-icon"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="/">How We Started</a>
+                            <a href="/">Where We Ship</a>
+                            <a href="/">Our guarantee</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="navbar-button">
+                    <a href="/" class="button" style="background: #ffc536;">GET A QUOTE</a>
+                </li>
+                <li class="navbar-button">
+                    <a href="/" class="button" style="background: black;">SIGN IN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--header section-->
+    <div class="header">
+        <div class="header-info">
+            <h1>L O G I S T I C</h1>
+            <h2>Best Shipping</h2>
+            <h3>Partner</h3>
+            <p>
+                The quest for the best shipping partner is a journey fueled by reliability,<br>
+                efficiency, and trust. In a global marketplace where speed and precision<br>
+                are paramount, the ideal shipping partner stands out.
+            </p>
+            <a href="/" class="header-button">DISCOVER MORE</a>
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <a class="back-button" onclick="nextSlide(-1)"><i class="fa fa-arrow-left" id="back-arrow" aria-hidden="true"></i></a>
+                Prev / Next
+                <a class="next-button" onclick="nextSlide(1)"><i class="fa fa-arrow-right" id="next-arrow" aria-hidden="true"></i></a>
+            </div>
+            <div class="slider-image fade">
+                <img src="./images/cargo.jpeg" />
+            </div>
+            <div class="slider-image fade">
+                <img src="./images/cargo 2.jpg" />
+            </div>
+        </div>
+    </div>
+
+    <!--welcome section-->
+    <div class="welcome" id="welcome">
+        <div class="welcome-pics-container">
+            <!--shapes that go above images-->
+            <div class="welcome-parallelogram"></div>
+            <div class="welcome-triangle"></div>
+            <div class="welcome-rectangle">
+                <div class="triangle-icon"></div>
+                <span class="client-count">0</span><br>
+                <span>Clients Worldwide</span>
+            </div>
+
+            <img class="WP1" src="./images/foreman.jpeg" />
+            <img class="WP2" src="./images/cargo handler.png" />
+
+        </div>
+
+        <div class="welcome-info">
+            <div class="welcome-info-parallelogram"></div>
+            <h1 class="welcome-h1"><span>TransMax Logistics <br>
+                Around</span><span class="h1-2"> the World</span>
+            </h1>
+            <p class="info-tagline">
+                Transmax is the world's driving worldwide coordinations<br>
+                supplier - we uphold industry and exchange the worldwide<br>
+                trade of merchandise through land transport.
+            </p>
+            <p class="info-description">
+                Our worth added administrations guarantee the progression of<br>
+                products proceeds consistently and supply chains stay lean and<br>
+                streamlined for progress.
+            </p>
+            <a href="/" class="welcome-button">MORE ABOUT US</a>
+        </div>
+    </div>
+
+    <!--services section-->
+    <div class="services" id="services">
+        <h1>Real Solution, Real Fast !</h1>
+        <h2>Best Global Logistics Solutions.</h2>
+
+        <div class="services-container">
+            <div class="service-1">
+                <img src="./images/ship freight.png" />
+                <div class="service-desc">
+                    <h3>Ship Freight Services</h3>
+                    <p>
+                        Ship freight services play a crucial role in global
+                        trade, facilitate the movement of goods.
+                    </p>
+                    <a><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    <span>Read More</span>
+                </div>
+            </div>
+            <div class="service-2">
+                <img src="./images/air freight.png" />
+                <div class="service-desc">
+                    <h3>Air Freight Services</h3>
+                    <p>
+                        Air freight services are the epitome of speed in
+                        the realm of logistics, offering swift transport.
+                    </p>
+                    <a><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    <span>Read More</span>
+                </div>
+            </div>  
+        </div>
+        <div class="service-text-dots">
+            <p>
+                Logistic & Transport Solutions Saves Your Time.
+                <span>Find Your Solution </span> <a><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+            </p>
+        </div>
+    </div>
+
+    <!--stats section-->
+    <div class="stats" id="stats">
+        <div class="stats-under">
+            <span class="stats-under-text">890</span>
+            <span class="stats-under-text">137</span>
+            <span class="stats-under-text">740</span>
+            <span class="stats-under-text">600</span>
+        </div>
+        <div class="stats-over">
+            <div class="stat-1">
+                <span class="stats-over-num-1">0</span>
+                <div class="stats-over-text">Delivered Packages</div>
+            </div>
+
+            <div class="stat-2">
+                <span class="stats-over-num-2">0</span>
+                <div class="stats-over-text">Countries covered</div>
+            </div>
+
+            <div class="stat-3">
+                <span class="stats-over-num-3">0</span>
+                <div class="stats-over-text">Tons of Goods</div>
+            </div>
+
+            <div class="stat-4">
+                <span class="stats-over-num-4">0</span>
+                <div class="stats-over-text">Satisfied Clients</div>
+            </div>
+        </div>
+    </div>
+
+    <!--testimonials section-->
+    <div class="testimonials" id="testimonials">
+        <div class="testimonials-clients">
+            <div class="testimonial-header">
+                <h1>TRUSTED CLIENTS</h1>
+                <h3>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</h3>
+            </div>
+            <br>
+            <div class="testimonial-body">
+                <span class="quotation-symbol"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                <p class="testimonial-text">
+                    In the fast-paced world of e-commerce and global trade, finding a reliable shipping 
+                    partner is paramount. Cargoton emerges as a shining beacon in the sea of 
+                    logistics companies, offering seamless shipping solutions that exceed expectations 
+                    at every turn.
+                </p>
+                <p class="testimonial-text">
+
+                </p>
+                <p class="testimonial-text">
+
+                </p>
+                <span class="message-symbol-bottom"></span>
+            </div>
+            <br>
+            <div class="testimonial-footer">
+                <button type="button" class="prev-testimonial"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                <button type="button" class="next-testimonial"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                <div class="testimonial-testifier">
+                    <h5>JOHN DEO</h5>
+                    <p>Managing Director (ZikZag)</p>
+                </div>
+                <div class="testimonial-testifier">
+                    <h5></h5>
+                    <p></p>
+                </div>
+                <div class="testimonial-testifier">
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials-points">
+            <div class="points-header">
+                <h1>WHY CHOOSE US</h1>
+                <h3>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</h3>
+            </div>
+            <div class="points">
+                <div class="point-1">
+                    <h4>Reliability</h4>
+                    <button type="button" class="point-1-expander" onclick="showPointOne()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <p class="point-1-para">Choose a shipping company known for its track record of timely 
+                        deliveries and secure handling of packages, ensuring your 
+                        shipments arrive on time and intact.
+                    </p>
+                </div>
+                <div class="point-2">
+                    <h4>Global Reach</h4>
+                    <button type="button" class="point-2-expander"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <p class="point-2-para">Choose a shipping company known for its track record of timely 
+                        deliveries and secure handling of packages, ensuring your 
+                        shipments arrive on time and intact.
+                    </p>
+                </div>
+                <div class="point-3">
+                    <h4>Transparency</h4>
+                    <button type="button" class="point-3-expander"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <p class="point-3-para">Choose a shipping company known for its track record of timely 
+                        deliveries and secure handling of packages, ensuring your 
+                        shipments arrive on time and intact.
+                    </p>
+                </div>
+                <div class="point-4">
+                    <h4>Customer Service</h4>
+                    <button type="button" class="point-4-expander"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <p class="point-4-para">Choose a shipping company known for its track record of timely 
+                        deliveries and secure handling of packages, ensuring your 
+                        shipments arrive on time and intact.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--clients section-->
+    <div class="clients" id="clients">
+        <p>Our Most Prominent Clients,</p>
+        <div class="clients-image-container">
+            <img src="./images/reuss.png" />
+            <img src="./images/gensis.png" />
+            <img src="./images/integrio.png" />
+            <img src="./images/brainbiz.png" />
+            <img src="./images/zikzag.png" />
+        </div>
+    </div>
+
+    <!--news section-->
+    <div class="news">
+        <h1>LATEST NEWS</h1>
+        <h4><i class="fa fa-square" aria-hidden="true"></i> INTEGER CONGUE ELIT</h4>
+
+        <div class="news-container">
+            <div class="news-section-1">
+                <div class="news-date">
+                    <span class="news-date-day">26</span>
+                    <span>MAY</span>
+                </div>
+                <img src="./images/lorry.jpg" />
+                <div class="news-desc">
+                    <h3>CURABITUR LOREM UISM QUIS</h3>
+                    <span class="news-desc-span">Admin <i class="fa fa-comments" aria-hidden="true"></i> 15</span>
+                    <p>
+                        Pellentesque habitant morbi tristique
+                        sene ctus eft netus eft malesuada fames
+                        turpis egestas. Aenean non donec...
+                    </p>
+                </div>
+            </div>
+            <div class="news-section-2">
+                <div class="news-date">
+                    <span class="news-date-day">22</span>
+                    <span>MAY</span>
+                </div>
+                <img src="./images/container.png" />
+                <div class="news-desc">
+                    <h3>CURABITUR LOREM UISM QUIS</h3>
+                    <span class="news-desc-span">Admin <i class="fa fa-comments" aria-hidden="true"></i> 15</span>
+                    <p>
+                        Pellentesque habitant morbi tristique
+                        sene ctus eft netus eft malesuada fames
+                        turpis egestas. Aenean non donec...
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="news-section-3">
+                <div class="news-date">
+                    <span class="news-date-day">20</span>
+                    <span>MAY</span>
+                </div>
+                <img src="./images/loading.jpg" />
+                <div class="news-desc">
+                    <h3>CURABITUR LOREM UISM QUIS</h3>
+                    <span class="news-desc-span">Admin <i class="fa fa-comments" aria-hidden="true"></i> 15</span>
+                    <p>
+                        Pellentesque habitant morbi tristique
+                        sene ctus eft netus eft malesuada fames
+                        turpis egestas. Aenean non donec...
+                    </p>
+                </div>
+            </div>
+            <div class="news-section-4">
+                <div class="news-date">
+                    <span class="news-date-day">15</span>
+                    <span>MAY</span>
+                </div>
+                <img src="./images/ship at sea.jpeg" />
+                <div class="news-desc">
+                    <h3>CURABITUR LOREM UISM QUIS</h3>
+                    <span class="news-desc-span">Admin <i class="fa fa-comments" aria-hidden="true"></i> 15</span>
+                    <p>
+                        Pellentesque habitant morbi tristique
+                        sene ctus eft netus eft malesuada fames
+                        turpis egestas. Aenean non donec...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer section-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-newsletter">
+                <div class="newsletter-heading">
+                    <h1>Weekly Newsletter</h1>
+                    <p>There are many variations of passages of lorem ipsum available.</p>
+                </div>
+                <div class="newsletter-form">
+                    <!--not using form tags since I only have to create a working design, using
+                    basic input tag to display input field-->
+                    <input type="email" name="email" value="Enter your mail">
+                    <input type="submit" value="SUBSCRIBE">
+                </div>
+            </div>
+
+            <div class="footer-columns">
+                <div class="col-1">
+                    <h3>About Us</h3>
+                    <span>------------</span>
+                    <p><br>
+                        Lorem ipsum dolor sit amet consectetur<br>
+                        adipiscing elit.
+                    </p><br>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> | (+94) 11 434 7575</p>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> | 42 Lily Ave, Colombo 00600</p>
+
+                </div>
+                <div class="col-2">
+                    <h3>Latest News</h3>
+                    <span>------------</span>
+                    <p><br>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        Sed ut perspiciatis unde omnis iste<br>
+                        natus error sit voluptatem.<br>
+                        (5 minutes ago)
+                    </p>
+                    <p><br>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        Sed ut perspiciatis unde omnis iste<br>
+                        natus error sit voluptatem.<br>
+                        (5 minutes ago)
+                    </p>
+                </div>
+                <div class="col-3">
+                    <h3>Customer Service</h3>
+                    <span>------------</span>
+                    <p><br><i class="fa fa-hand-o-right" aria-hidden="true"></i> Support Forums</p>
+                    <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> Communication</p>
+                    <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> FAQ's</p>
+                    <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> Privacy Policy</p>
+                    <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> Rules & Conditions</p>
+                    <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> Contact Us</p>
+                </div>
+                <div class="col-4">
+                    <h3>Customer Service</h3>
+                    <span>------------</span>
+                    <div class="cs-imageset">
+                        <img src="./images/warehouse.png" />
+                        <img src="./images/business building.png" />
+                        <img src="./images/cargo truck.png" />
+                        <img src="./images/cargo trucks.png" />
+                        <img src="./images/colleagues.png" />
+                        <img src="./images/conference table.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-connect">
+                <div class="trademark">
+                    <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2021 All Rights Reserved. Site By Xiteb
+                        <sup><i class="fa fa-trademark" aria-hidden="true"></i></sup></p>
+                </div>
+                <div class="connect-icons">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-behance-square" aria-hidden="true"></i>
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="footer-top-button"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
+    </div>
+
+    <!--this following JS file is for the animation for counting up in stats-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js" 
+    integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type ="text/javascript" src="./app.js"></script>
+    <script type="text/javascript" src="./count-up-animator.js"></script>
+</body>
+</html>
